@@ -1,0 +1,16 @@
+# ============================================================
+#  Quant & Data Science Master Portfolio — Docker Compose
+# ============================================================
+version: "3.9"
+
+services:
+  portfolio:
+    build: .
+    container_name: quant-portfolio
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data        # Persist downloaded data
+    environment:
+      - STREAMLIT_THEME_BASE=dark
+    restart: unless-stopped
