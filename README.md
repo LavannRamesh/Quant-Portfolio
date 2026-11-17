@@ -1,4 +1,4 @@
-# 📊 Quant & Data Science Master Portfolio
+# Quant & Data Science Master Portfolio
 
 A unified, professional **Streamlit web portal** containing 10 production-quality projects
 spanning quantitative finance, machine learning, and mathematical computing.
@@ -9,7 +9,7 @@ spanning quantitative finance, machine learning, and mathematical computing.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1: One-Click Launch
 
@@ -40,7 +40,7 @@ Then open [http://localhost:8501](http://localhost:8501).
 
 ---
 
-## 📁 Projects
+## Projects
 
 ### Category 1: Quant Finance & Simulation
 
@@ -95,7 +95,7 @@ Then open [http://localhost:8501](http://localhost:8501).
 
 ---
 
-## ✨ Key Technical Highlights
+## Key Technical Highlights
 
 - **No look-ahead bias** — Backtest signals use `.shift(1)` to prevent peeking at future data
 - **Monte Carlo validation** — Options prices verified: BS vs 1M MC paths converge within 0.5%
@@ -106,6 +106,6 @@ Then open [http://localhost:8501](http://localhost:8501).
 
 ---
 
-## 📄 License
+## License
 
 MIT License — see [LICENSE](LICENSE) for details.
